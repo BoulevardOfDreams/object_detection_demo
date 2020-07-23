@@ -3,14 +3,14 @@
 
 #python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/train_labels.csv  --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/train.record
 
-#python generate_tfrecord.py --label1=date --label2=fig --label3=hazelnut --csv_input=C:\Users\uia64930\Desktop\my_tensor\annotations\train_labels.csv  --output_path=C:\Users\uia64930\Desktop\my_tensor\annotations\train.record --img_path=C:\Users\uia64930\Desktop\my_tensor\images\train
+#python generate_tfrecord.py --label1=Human_body --csv_input=C:\Users\uia64930\Desktop\my_tensor\annotations\train_labels.csv  --output_path=C:\Users\uia64930\Desktop\my_tensor\annotations\train.record --img_path=C:\Users\uia64930\Desktop\my_tensor\images\train
 
 
 # Create test data:
 
 #python generate_tfrecord.py --label=<LABEL> --csv_input=<PATH_TO_ANNOTATIONS_FOLDER>/test_labels.csv  --output_path=<PATH_TO_ANNOTATIONS_FOLDER>/test.record
 
-#python generate_tfrecord.py --label1=date --label2=fig --label3=hazelnut --csv_input=C:\Users\uia64930\Desktop\my_tensor\annotations\test_labels.csv  --output_path=C:\Users\uia64930\Desktop\my_tensor\annotations\test.record --img_path=C:\Users\uia64930\Desktop\my_tensor\images\test
+#python generate_tfrecord.py --label1=Human_body --csv_input=C:\Users\uia64930\Desktop\my_tensor\annotations\test_labels.csv  --output_path=C:\Users\uia64930\Desktop\my_tensor\annotations\test.record --img_path=C:\Users\uia64930\Desktop\my_tensor\images\test
 
 #
 
